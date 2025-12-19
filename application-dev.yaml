@@ -1,0 +1,9 @@
+env: dev
+services:
+  database:
+    username: rootDev
+    password: rootDev
+
+  redis:
+    username: redUserDev
+    password: redPasswordDev
