@@ -5,7 +5,7 @@ spring:
   datasource:
     username: venkat
     password: changeit
-    url: jdbc:postgresql://localhost:5432/EF-SIT
+    url: jdbc:postgresql://ef-database-svc:5432/EF-SIT
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
