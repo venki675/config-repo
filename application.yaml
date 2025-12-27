@@ -4,7 +4,7 @@ info: This is just for info
 spring:
   datasource:
     username: venkat
-    password: ${vault.database.password}
+    #password: ${vault.database.password} this is loaded from Vault
     url: jdbc:postgresql://ef-database-svc:5432/EF-SIT
     driver-class-name: org.postgresql.Driver
   jpa:
